@@ -25,7 +25,7 @@ eleventyNavigation:
       <span class="cs-topper">Nationwide Transportation & Logistics</span>
       <h1 class="cs-title">One Load At A Time.</h1>
       <p class="cs-text">
-        Hassle-Free Shipping in 48 States. Our experienced team 
+        Hassle-Free Shipping in 48 States for your Car Carrier, Dry Van, Reefer, and Flatbed needs. Our experienced team 
         is committed to providing exceptional customer service and ensuring your 
         shipments arrive on time and in perfect condition. 
       </p>
@@ -46,6 +46,66 @@ eleventyNavigation:
 
   <!-- Background Image -->
   {% image './src/images/dyi-landing-photo2.jpg', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
+
+<section id="cs-contact">
+  <div class="cs-container">
+    <form id="cs-form" name="Contact Form" method="post">
+      <div class="cs-content">
+        <span class="cs-topper">Contact</span>
+        <h2 class="cs-title">Enter Your Information</h2>
+        <p class="cs-text">
+                    Once we have the complete and accurate information about your transporation needs, we'll get started!
+                </p>
+      </div>
+      <label>
+                Name
+                <input required type="text" id="name" name="name" placeholder="Name">
+      </label>
+      <label>
+                Email
+                <input required type="text" id="email" name="email" placeholder="Email">
+      </label>
+      <label>
+                Phone
+                <input required type="text" id="phone" name="phone" placeholder="Phone">
+      </label>
+      <label>
+                Company
+                <input required type="text" id="company" name="company" placeholder="Company">
+      </label>
+      <label>
+                Origin Address
+                <input required type="text" id="origin-address" name="origin-address" placeholder="Origin Address">
+      </label>
+      <label>
+        Destination Address
+        <input required type="text" id="dest-address" name="dest-address" placeholder="Dest. Address">
+</label>
+<label>
+  Est. Ship Date
+  <input required type="text" id="ship-date" name="ship-date" placeholder="Ship Date">
+</label>
+      <label>
+                How Did You Find Us
+                <input type="text" id="find" name="find-us" placeholder="How did you find us?">
+      </label>
+      <label class="cs-label-message">
+                Comments
+                <textarea required name="Message" id="message" placeholder="Additional comments..."></textarea>
+      </label>
+      <button class="cs-button-solid" type="submit">Submit Message</button>
+    </form>
+    <div class="cs-right-section">
+
+      <!-- Background Image-->
+      {% image './src/images/dyi-about.jpg', 'building', '', 'lazy'%}
+    </div>
+  </div>
 </section>
 
 <!-- ============================================ -->
@@ -112,7 +172,7 @@ eleventyNavigation:
     <!-- Right Content Section-->
     <div class="cs-right">
       <span class="cs-topper">About Us</span>
-      <h2 class="cs-title">Why DYI?</h2>
+      <h2 class="cs-title">Why DYI Transportation?</h2>
       <p class="cs-text">
         DYI Transportation LLC is a trusted provider of transportation services 
         throughout the United States and Canada. Since 2017, we have been dedicated 
@@ -245,10 +305,7 @@ eleventyNavigation:
           height="80"
 />
         <p class="cs-item-p">
-          DYI Transportation is not your average logistics service. Our 
-      mission and priority is to deliver excellent 
-      service to customers. Clear communication and a hassle-free experience 
-      are two of the company’s fundamental values.
+          Quote was seamless and transparent and transport was good will use them in the future.
         </p>
         <span class="cs-reviewer">
           Guess G.
@@ -292,65 +349,7 @@ eleventyNavigation:
   {% image './src/images/dyi-footer.jpg', 'kitchen cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
 
-<!-- ============================================ -->
-<!--                Contact Form                  -->
-<!-- ============================================ -->
 
-<section id="cs-contact">
-  <div class="cs-container">
-    <form id="cs-form" name="Contact Form" method="post">
-      <div class="cs-content">
-        <span class="cs-topper">Contact</span>
-        <h2 class="cs-title">Enter Your Information</h2>
-        <p class="cs-text">
-                    Once we have the complete and accurate information about your transporation needs, we'll get started!
-                </p>
-      </div>
-      <label>
-                Name
-                <input required type="text" id="name" name="name" placeholder="Name">
-      </label>
-      <label>
-                Email
-                <input required type="text" id="email" name="email" placeholder="Email">
-      </label>
-      <label>
-                Phone
-                <input required type="text" id="phone" name="phone" placeholder="Phone">
-      </label>
-      <label>
-                Company
-                <input required type="text" id="company" name="company" placeholder="Company">
-      </label>
-      <label>
-                Origin Address
-                <input required type="text" id="origin-address" name="origin-address" placeholder="Origin Address">
-      </label>
-      <label>
-        Destination Address
-        <input required type="text" id="dest-address" name="dest-address" placeholder="Dest. Address">
-</label>
-<label>
-  Est. Ship Date
-  <input required type="text" id="ship-date" name="ship-date" placeholder="Ship Date">
-</label>
-      <label>
-                How Did You Find Us
-                <input type="text" id="find" name="find-us" placeholder="How did you find us?">
-      </label>
-      <label class="cs-label-message">
-                Comments
-                <textarea required name="Message" id="message" placeholder="Additional comments..."></textarea>
-      </label>
-      <button class="cs-button-solid" type="submit">Submit Message</button>
-    </form>
-    <div class="cs-right-section">
-
-      <!-- Background Image-->
-      {% image './src/images/dyi-about.jpg', 'building', '', 'lazy'%}
-    </div>
-  </div>
-</section>
 
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
