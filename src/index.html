@@ -39,7 +39,7 @@ eleventyNavigation:
           width="17"
           height="17"
 />
-        Get An Estimate
+        Get A Quote
       </a>
     </div>
   </div>
@@ -102,8 +102,13 @@ eleventyNavigation:
     </form>
     <div class="cs-right-section">
 
-      <!-- Background Image-->
-      {% image './src/images/dyi-qrcode.png', 'building', '', 'lazy'%}
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://api.whatsapp.com/send?phone=5557794407" class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
+
+      {% image './src/images/dyi-gallery6.jpg', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+      
     </div>
   </div>
 </section>
